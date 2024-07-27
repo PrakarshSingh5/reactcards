@@ -1,0 +1,39 @@
+
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10;
+}
+.searchbox{
+  padding: 10px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 120px;
+  background-color: bisque;
+  position: sticky;
+}
+.search{
+  padding: 10px;
+  border: 0;
+  width: 400px;
+  border-bottom: 1px solid gray
+}
+.search:focus{
+  outline:none;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+}
+
+  
+  
+   
